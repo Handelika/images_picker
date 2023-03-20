@@ -69,34 +69,35 @@ public class Utils {
     }
 
     public static PictureSelectionModel setLanguage(PictureSelectionModel model, String language) {
-        switch (language) {
-            case "Language.Chinese":
-                model.setLanguage(LanguageConfig.CHINESE);
-                break;
-            case "Language.ChineseTraditional":
-                model.setLanguage(LanguageConfig.TRADITIONAL_CHINESE);
-                break;
-            case "Language.English":
-                model.setLanguage(LanguageConfig.ENGLISH);
-                break;
-            case "Language.Japanese":
-                model.setLanguage(LanguageConfig.JAPAN);
-                break;
-            case "Language.French":
-                model.setLanguage(LanguageConfig.FRANCE);
-                break;
-            case "Language.Korean":
-                model.setLanguage(LanguageConfig.KOREA);
-                break;
-            case "Language.German":
-                model.setLanguage(LanguageConfig.GERMANY);
-                break;
-            case "Language.Vietnamese":
-                model.setLanguage(LanguageConfig.VIETNAM);
-                break;
-            default:
-                model.setLanguage(-1);
-        }
+        model.setLanguage(LanguageConfig.ENGLISH);
+//        switch (language) {
+//            case "Language.Chinese":
+//                model.setLanguage(LanguageConfig.CHINESE);
+//                break;
+//            case "Language.ChineseTraditional":
+//                model.setLanguage(LanguageConfig.TRADITIONAL_CHINESE);
+//                break;
+//            case "Language.English":
+//                model.setLanguage(LanguageConfig.ENGLISH);
+//                break;
+//            case "Language.Japanese":
+//                model.setLanguage(LanguageConfig.JAPAN);
+//                break;
+//            case "Language.French":
+//                model.setLanguage(LanguageConfig.FRANCE);
+//                break;
+//            case "Language.Korean":
+//                model.setLanguage(LanguageConfig.KOREA);
+//                break;
+//            case "Language.German":
+//                model.setLanguage(LanguageConfig.GERMANY);
+//                break;
+//            case "Language.Vietnamese":
+//                model.setLanguage(LanguageConfig.VIETNAM);
+//                break;
+//            default:
+//                model.setLanguage(-1);
+//        }
         return model;
     }
 }
